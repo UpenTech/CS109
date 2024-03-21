@@ -167,29 +167,27 @@
 
     \begin{shaded}
     \begin{answer}
-        For following are the numbers of arrangements possible for 10 peoples based on the follow up questions:
-        a)
-        Assuming there're no resrictions on the seating arrangement, we'll have \[10 * 9 * 8 * ... * 1 = 3628800 ways\] of seating arrangement.
+        For following are the numbers of arrangements possible for 10 peoples based on the follow up questions: \\
+        a) \\
+        \ Assuming there're no resrictions on the seating arrangement, we'll have \[10 * 9 * 8 * ... * 1 = 3628800 \ ways\] of seating arrangement.
         First individual to be seated has 10 choices available followed by 9, 8, and so on for succeeding members.
-
-        b)
-        Before we start this problem, think of person A and person B be coalesced into a single entity. Now, we've 9 total members (with person
-        A and B representing a single entity), these members can be seated in \[9 * 8 * ... * 1 = 362880 ways\]. Our coalesced entity (person A and B)
-        themselves can be seated in \[ = 2 * 1 = 2 ways\]. To obtain the total we use product rule of counting, i.e.
-        \[= 362880 * 2 \]   \\
-        \[= 725760 ways\]
-
+      
+        b) \\
+        \ Before we start this problem, think of person A and person B be coalesced into a single entity. Now, we've 9 total members (with person
+        A and B representing a single entity), these members can be seated in \[9 * 8 * ... * 1 = 362880 \ ways\]. Our coalesced entity (person A and B)
+        themselves can be seated in \[ = 2 * 1 = 2 \ ways\]. To obtain the total we use product rule of counting, i.e.
+        \[= 362880 * 2 \] \[= 725760 \ ways\]
+        
         c)
-        When 5 adults and 5 children are to sit such that no any individual has a neighbor of its kind then the only way to approach this
+        \ When 5 adults and 5 children are to sit such that no any individual has a neighbor of its kind then the only way to approach this
         would be to keep the other kind in-between. So, our seating arrangement would loook like either A C A C A C A C A C or C A C A C A C A C A.
         Adults are to be seated in 5 constrained seats while children are to be seated in another constrained seats. Using the prodct rule of counting, i.e.
-        \[= (5 * 4 * 3 * 2 * 1) * (5 * 4 * 3 * 2 * 1) \]
-        \[= 240 ways\]
+        \[= (5 * 4 * 3 * 2 * 1) * (5 * 4 * 3 * 2 * 1) \] \[= 240 \ ways\]
 
         d)
-        This case this no different than our 2nd case, similarly we presume a married couple to represent one entity. Then we'll have \[= 5 * 4 * 3 * 2 * 1 ways\] of
-        arranging them. Now we know that the couples themselves can be arranged in \[= 2 * 1 ways\] and since there are 5 couples, we'll have
-        \[= 120 * 2 * 2 * 2 * 2 * 2 = 3840  ways\] of possible arrangements.
+        \ This case this no different than our 2nd case, similarly we presume a married couple to represent one entity. Then we'll have \[= 5 * 4 * 3 * 2 * 1 \ ways\] of
+        arranging them. Now we know that the couples themselves can be arranged in \[= 2 * 1 \ ways\] and since there are 5 couples, we'll have
+        \[= 120 * 2 * 2 * 2 * 2 * 2 = 3840 \ ways\] of possible arrangements.
     \end{answer}
     \end{shaded}
     \newpage
@@ -207,9 +205,30 @@
 
     \begin{shaded}
     \begin{answer}
-        Number of bird species (B) = \[ 8\]
-        Number of reptile species (R) = \[ 6\]
-        The total number of animal species in the given local zoo (T) = \[ = 8 + 6 \] =\[= 12 \]
+        Number of bird species (B) = 8 \\
+        Number of reptile species (R) = 6 \\
+        The total number of animal species in the given local zoo \[ T = 8 + 6 \] \[= 12 \]
+        
+        a) When there are no additional restrictions on selection of species \\ \\
+            \ Here, total number of combinations for arrangement of 3 species of birds will be (B),
+            \[= C(8,3) \] \[= \frac{8!}{5! * 3!}\] \[\therefore B = 56\]
+            \ total number of combinations for arrangement of 3 species of reptiles will be (R),
+            \[= C(6,3) \] \[= \frac{6!}{3! * 3!}\] \[\therefore R = 20\]
+
+            \ Final number of arrangements \[= 56 * 20\] \[= 1120 \ ways \] \\
+        b) When 2 particular bird species cannot be placed together \\ \\ 
+            \ Firstly, for this we find number of ways in which we can put both species together and subtract it with total possible 
+            combination to get number of arrangement where they aren't together \\
+            \ Number of arrangements where they are together, \[= C(6,1)\]
+            
+            \ Number of arrangements where they are not together, \[= 56 - 6\] \[= 50\]
+
+            \ Now, total number of arrangements if 3 bird and 3 reptile species based on this criterion will be, \[= 50 * 20\] \[= 1000 \ ways \] \\
+
+        c) When 1 particular bird species and 1 particular reptile species cannot be placed together \\ \\
+            \ Number of arrangements where they are together, \[= C(7,2) * C(5,2)\] \[= 210\]
+            \ Number of arrangements where they are not together, \[= 1120 - 210\] \[= 910\]
+
     \end{answer}
     \end{shaded}
     \newpage

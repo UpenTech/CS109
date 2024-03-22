@@ -256,7 +256,34 @@
 
     \begin{shaded}
     \begin{answer}
+        Given, \\
+        Number of students in Java class (J) = 27 \\
+        Number of students in C++ class (C) = 28 \\
+        Number of students in Python class (P) = 20 \\
+        Number of students in both Java and C++ class \[(J \cap C) = 12\]
+        Number of students in both Java and Python class \[(J \cap P) = 5\]
+        Number of students in both Python and C++ class \[(C \cap P) = 8\]
+        Number of students in all classes \[(J \cap P \cap C) = 2\]
+        Total Student (U) = 100 \\\\
+        For number of students enrolled in at least one of the class, we have:
+        \[= J + C + P - J \cap C - J \cap P - C \cap P + J \cap P \cap C\]
+        \[= 27 + 28 + 20 - 12 - 5 - 8 + 2\]
+        \[\therefore J \cup C \cup P= 52\]
 
+        a) Probability that the student is not in any of the 3 programming classes \\\\
+         It can be calculated as, \[= \frac{U - J \cup P \cup C}{U}\]
+        \[= \frac{48}{100}\]
+        \[= \frac{12}{25}\]
+        \[= 0.48\]
+
+        b) Probability that student is taking exactly one of the three programming class \\\\
+        Number of students who are enrolled in exactly one of the programming class is 
+        \[= J + C + P - 2(J \cap C) - 2(J \cap P) - 2 (C \cap P) + 3 (J \cap C \cap P)\]
+        \[= 27 + 28 + 20 - 2 * 12 - 2 * 5 - 2 * 8 + 3 * 2\]
+        \[= 31\]
+
+        Now, the probability is \[= \frac{31}{100}\]
+        \[= 0.31\]
     \end{answer}
     \end{shaded}
     \newpage

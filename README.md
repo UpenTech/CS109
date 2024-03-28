@@ -6,8 +6,6 @@ of CS109 to make learning more structured. This repository will contain all my p
 
 Lecture 1: 
 
-Lecture 2:
-
 
 
 
